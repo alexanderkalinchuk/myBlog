@@ -1,0 +1,73 @@
+body{
+	overflow-x:hidden;
+}
+
+.nav{
+	padding-top: 30px;
+	background-color: white;
+}
+
+.main-content{
+	padding-top: 100px;
+}
+
+.menu__item{
+	margin: 0 20px;
+
+}
+
+.menu__item a {
+	font-family: 'Arimo', sans-serif;
+	font-size: 26px;
+	color: #59A5D1;
+	text-decoration: none;
+
+}
+
+.menu__item a:hover {
+	color: #e60000;
+}
+
+.image-main{
+	border-radius: 50%;
+}
+
+.title{
+	text-align: center;
+}
+
+.title__main{
+	font-family: 'Arimo', sans-serif;
+	font-size: 50px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.title__sub{
+	font-family: 'Arimo', sans-serif;
+	font-size: 42px;
+	margin-top: 32px;
+	margin-bottom: 15px;
+}
+
+.abc{
+	background-color: red;
+}
+
+.icons{
+	text-align: center;
+	font-size: 56px;
+}
+
+.icons a{
+	text-decoration: none;
+	margin: 0 15px;
+}
+
+.main-text{
+	font-size: 17px;
+	font-family: 'Arimo', sans-serif;
+	text-align: justify;
+	margin-top: 15px; 
+}
+
