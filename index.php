@@ -4,8 +4,8 @@ require_once "includes/main.php";
 
 try {
 
-		if($_GET['category'] || $_GET['page']){
-			$c = new CategoryController();
+		if($_GET['blog']){
+			$c = new BlogController();
 		}
 		else if(empty($_GET)){
 			$c = new HomeController();
